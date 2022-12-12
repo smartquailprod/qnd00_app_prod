@@ -11,7 +11,7 @@ ENV USER=qnd00
 RUN apk add --no-cache git
 ARG username=smartquailDev
 ARG password=ms1719183830
-RUN git clone https://github.com/smartquailDev/${NODE_VERSION}.git
+RUN git clone https://github.com/smartquailprod/${NODE_VERSION}.git
 
 #COPY . /qnode0_app
 #COPY ./qnode0_app.dev/qnode0_app_env_dev/qnode0_app/ /qnode0_app
